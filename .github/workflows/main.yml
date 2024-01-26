@@ -2,7 +2,7 @@ name: Release Compiled PDF
 on:
   push:
     tags:
-      - 'v.2.0'
+      - '*.*.*'
 
 jobs:
   build_latex:
